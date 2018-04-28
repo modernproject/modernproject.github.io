@@ -1,0 +1,52 @@
+p {
+    font-weight: 600;
+}
+a {
+    font-weight: 600;
+    text-decoration: none;
+    text-decoration-color: #000000;
+    color: #000000;
+}
+
+.header {
+    padding: .5rem;
+    grid-area: header;
+    display: block;
+    font-size: 2.5rem;
+}
+.subscribe {
+    padding: .5rem;
+    grid-area: subscribe; 
+    display: block;
+}
+.about {
+    padding: .5rem;
+    grid-area: about; 
+    display: block;
+}
+.footer {
+    padding: .5rem;
+    grid-area: footer;
+    background-color: #333333;
+    display: block;
+}
+
+.footer > h1, .footer > * > a {
+    color: #EEEEEE;
+}
+
+.footer > .footer-container {
+    padding-top: 1rem;
+    color: #EEEEEE;
+}
+
+.grid-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'about about about'
+    'subscribe subscribe subscribe'
+    'footer footer footer';
+}
