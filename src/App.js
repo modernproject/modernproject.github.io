@@ -14,7 +14,7 @@ class App extends Component {
           <p>this is modernproject</p>
           <a href="https://medium.com/@djstein/">the blog</a>
           <br/>
-          <a href="https://docs.modernproject.io">the book</a>
+          <a href="https://modernproject.gitbook.io/modernproject/">the book</a>
           <br/>
           <a href="https://github.com/modernproject">source code</a>
         </div>
@@ -39,7 +39,7 @@ class App extends Component {
             <a href="https://github.com/modernproject">GITHUB</a>
           </div>
           <div className="footer-container">
-            <a href="https://docs.modernproject.io">GITBOOK</a>
+            <a href="https://modernproject.gitbook.io/modernproject/">GITBOOK</a>
           </div>
           <div className="footer-container">
             <a href="https://twitter.com/d_j_stein">TWITTER</a>

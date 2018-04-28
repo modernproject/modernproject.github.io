@@ -7,7 +7,7 @@ body {
   padding: 0;
   min-width: 100%;
   min-height: 100%;
-  font-family: helvetica, sans-serif;
+  font-family: 'Roboto', helvetica, sans-serif;
 }
 
 #root {
