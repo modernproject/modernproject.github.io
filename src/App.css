@@ -1,19 +1,22 @@
-p {
-    font-weight: 600;
-}
 a {
-    font-weight: 600;
     text-decoration: none;
     text-decoration-color: #000000;
     color: #000000;
 }
 
+.logo {
+    font-size: 1.5rem;
+}
+
 .header {
     padding: .5rem;
     grid-area: header;
-    display: block;
-    font-size: 2.5rem;
 }
+
+.header > * {
+    padding: .5rem;
+}
+
 .subscribe {
     padding: .5rem;
     grid-area: subscribe; 
@@ -38,6 +41,12 @@ a {
 .footer > .footer-container {
     padding-top: 1rem;
     color: #EEEEEE;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
 }
 
 .grid-container {
